@@ -1,4 +1,4 @@
-load_template "git://github.com/trudog/raw/master/rails-templates/base.rb"
+load_template "git://github.com/trudog/rails-templates/raw/master/base.rb"
 
 # Install restful_authentication plugin
 # script/plugin install git://github.com/technoweenie/restful-authentication.git
