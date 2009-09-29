@@ -3,11 +3,13 @@ run "echo TODO > README"
 # Run Scripts
 
 # Install Gems
-gem 'mislav-will_paginate', :lib => 'will_paginate', :source => 'http://gems.github.com'
-gem 'nifty-generators'
-rake "gems:install"
+#gem 'mislav-will_paginate', :lib => 'will_paginate', :source => 'http://gems.github.com'
+#gem 'nifty-generators'
+#rake "gems:install"
 
 # Install Plugins
+plugin "mislav-will_paginate", :lib => 'will_paginate', :git => "git://github.com/mislav/will_paginate.git"
+plugin "nifty-generators", :git => "git://github.com/ryanb/nifty-generators.git"
 plugin "rspec", :git => "git://github.com/dchelimsky/rspec.git"
 plugin "rspec-rails", :git => "git://github.com/dchelimsky/rspec-rails.git"
 generate :rspec
