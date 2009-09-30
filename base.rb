@@ -12,7 +12,10 @@ plugin "mislav-will_paginate", :lib => 'will_paginate', :git => "git://github.co
 plugin "nifty-generators", :git => "git://github.com/ryanb/nifty-generators.git"
 plugin "rspec", :git => "git://github.com/dchelimsky/rspec.git"
 plugin "rspec-rails", :git => "git://github.com/dchelimsky/rspec-rails.git"
+
+generate :nifty_layout
 generate :rspec
+
 
 # FYI: This allows you to configure git
 #git config --global user.name 'Your Name'
