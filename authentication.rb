@@ -26,7 +26,7 @@ rake "db:migrate"
 # Create welcome controller
 generate :controller, "welcome index"
 route "map.root :controller => 'welcome'"
-git :rm => "public/index.html"
 
-git :add => "."
-git :commit => "-m 'adding welcome controller'"
+# git :rm => "public/index.html"
+# git :add => "."
+# git :commit => "-m 'adding welcome controller'"
