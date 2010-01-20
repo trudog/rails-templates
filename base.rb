@@ -22,6 +22,7 @@ generate :rspec
 #git config --global user.email ben@domain.com
 
 # Create Git repository
+puts "\n\n"
 if yes?("Create Git?")
   git :init
 

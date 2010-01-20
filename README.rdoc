@@ -13,6 +13,10 @@ You can then use this "railsapp" command instead of the traditional "rails" one.
 
 That will generate a Rails app using the base.rb template found here.
 
+To create a Rails application with authentication, use this command
+  railsapp authentication store
+
+
 --
 
 Copyright (c) 2008 Ryan Bates
